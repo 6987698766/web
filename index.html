@@ -9,16 +9,43 @@
     position: absolute ;right: 0px;top: 0px;
     width: 100px;height: 100px;background-color: goldenrod;
     }
-  </style>
-  <meta name="description" content="Blog, personal introduction, learning schedule, etc.">
+  </style>  
 </head>
 <body>
-<<<<<<< HEAD
+  <!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1>My Page</h1>
+  </div>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+
+  <nav class='sidebar-nav'>
+    <a class="sidebar-nav-item active" href="https://6987698766.github.io/">Home</a>
+    <a class="sidebar-nav-item active" href="https://6987698766.github.io/leetcode">Leetcode</a>
+  </nav>
+  </div>
   <div class="box"></div>
   <img src="img/head.jpeg" alt='頭貼' width="700" height="400"></img>
-=======
-  <img src="https://github.com/6987698766/6987698766.github.io/blob/main/img/head.jpeg?raw=true" alt='頭貼' width="700" height="400"></img>
->>>>>>> 03a2498bac86bce4653013e2f1aeb95973e1bb51
   <h4>Huang yu ting</h4>
   <p>a beginner of web developer!!</p>
   <ul>
